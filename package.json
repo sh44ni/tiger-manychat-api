@@ -1,6 +1,42 @@
 {
-  "name": "tiger-manychat-api",
-  "version": "1.0.0",
-  "type": "module",
-  "private": true
+  "version": "v2",
+  "content": [
+    {
+      "type": "cards",
+      "elements": [
+        {
+          "title": "Panorama",
+          "subtitle": "10 JOD",
+          "image_url": "https://tigerfootwear.com/images/thumbs/0000576_genuine-panorama_120.jpeg",
+          "buttons": [
+            {
+              "type": "flow",
+              "caption": "Choose This",
+              "target": "Tiger • Pick Size",
+              "payload": {
+                "tf_model": "Panorama",
+                "tf_price": 10
+              }
+            }
+          ]
+        },
+        {
+          "title": "Genuine Panorama",
+          "subtitle": "20 JOD",
+          "image_url": "https://tigerfootwear.com/images/thumbs/0000576_genuine-panorama.jpeg",
+          "buttons": [
+            {
+              "type": "flow",
+              "caption": "Choose This",
+              "target": "Tiger • Pick Size",
+              "payload": {
+                "tf_model": "Genuine Panorama",
+                "tf_price": 20
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
